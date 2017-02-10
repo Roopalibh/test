@@ -1,0 +1,10 @@
+var ln=require('./search.js');
+var bbl=require('./sort.js');
+var arr=[1,5,3,7,2];
+bbl.bubble(arr);
+bbl.selection(arr);
+bbl.insertion(arr);
+var no=5;
+ln.linear(arr,no);
+var no=7;
+ln.binary(arr,no);
